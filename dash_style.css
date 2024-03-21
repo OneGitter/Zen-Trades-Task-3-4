@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.upper-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.upper-metric {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lower-metric {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.card {
+    width: 200px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.lower-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.chart {
+    width: 45%;
+    height: 300px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
