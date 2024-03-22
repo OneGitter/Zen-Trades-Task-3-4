@@ -1,6 +1,6 @@
 // Sample data for charts
 const jobLocationData = {
-    labels: ['Location A', 'Location B', 'Location C', 'Location D'],
+    labels: ['Hyderabad', 'Mumbai', 'Delhi', 'Pune'],
     datasets: [{
         label: 'Revenue',
         data: [5000, 3000, 6000, 4000],
@@ -10,7 +10,7 @@ const jobLocationData = {
 };
 
 const jobTypeData = {
-    labels: ['Type 1', 'Type 2', 'Type 3', 'Type 4'],
+    labels: ['Marketing', 'Sales', 'Production', 'Software'],
     datasets: [{
         label: 'Revenue',
         data: [7000, 2000, 4000, 3000],
